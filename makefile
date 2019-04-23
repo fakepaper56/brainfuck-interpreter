@@ -8,3 +8,6 @@ all: bfi
 
 bfi: $(OBJ)
 	$(CC) -o bfi $^
+
+clean:
+	rm -f bfi $(OBJ)
